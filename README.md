@@ -9,5 +9,7 @@ Question 2:
 An echo server is a server that repeats whatever it receives from a client. For example, if the client sends the server the string "Hello there! I am the client," the server will respond with "Hello there! I am the server." To create an echo server, you may use the Java networking API. The server will wait for a client connection using the accept() method. Upon receiving a client connection, the server will loop and follow these steps:
 
 Read the data from the socket into a buffer.
+
 Send the contents of the buffer back to the client.
+
 The server will only exit the loop when it has determined that the client has closed the connection.
